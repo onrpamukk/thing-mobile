@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "239272394696",
+    "project_id": "thing-b319e",
+    "storage_bucket": "thing-b319e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:239272394696:android:e71de6bf8695a46503cafd",
+        "android_client_info": {
+          "package_name": "com.thingmobile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBt8yuMgq5Vv8IubQJAsqzZyUVx2Sn2wPs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
