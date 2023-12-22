@@ -2,12 +2,17 @@
   "name": "thingmobile",
   "version": "0.0.1",
   "private": true,
+  "description": "Thing mobile application",
+  "author": "Thing, Inc.",
+  "license": "Apache 2.0",
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "lint": "eslint .",
+    "pod-install": "cd ios && pod install",
     "start": "react-native start",
-    "test": "jest"
+    "test": "jest",
+    "type-check": "tsc --noEmit"
   },
   "dependencies": {
     "react": "18.2.0",

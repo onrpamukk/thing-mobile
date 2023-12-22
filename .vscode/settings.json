@@ -1,0 +1,30 @@
+{
+    "java.compile.nullAnalysis.mode": "automatic",
+    "editor.tabSize": 2,
+    "files.trimTrailingWhitespace": true,
+    "editor.formatOnSave": false,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit"
+    },
+    "workbench.colorCustomizations": {
+      "statusBar.background": "#b85833",
+      "statusBarItem.hoverBackground": "#ce7350",
+      "statusBar.foreground": "#e7e7e7"
+    },
+    "search.exclude": {
+      "**/dist": true,
+      "**/node_modules": true,
+      "**/.build-cache": true,
+      "**/scripts": true,
+    },
+    "typescript.tsdk": "node_modules/typescript/lib",
+    /**
+     * -------------------------------------------------------------------------------------------------
+     * [It is absolutely necessary to be active when creating a pull request.]
+     *
+     * It has been added to make some programmers even more comfortable when writing code.
+     * -------------------------------------------------------------------------------------------------
+     */
+    "eslint.enable": true,
+    "java.configuration.updateBuildConfiguration": "interactive" // default true.
+}
